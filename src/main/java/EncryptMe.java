@@ -41,4 +41,22 @@ public class EncryptMe {
         return cipherText;
     }
 
+    public int getShiftKey() {
+        return shiftKey;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setCipherText(String cipherText) {
+        this.cipherText = cipherText;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
+
+
+
 }
