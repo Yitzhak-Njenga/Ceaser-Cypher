@@ -1,4 +1,6 @@
 public class DecryptMe {
+
+    private static String encryptedText = "";
     private static String text = "";
     private static int shiftKey;
     private static String cipherText = "";
