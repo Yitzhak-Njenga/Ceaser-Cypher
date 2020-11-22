@@ -43,4 +43,25 @@ public class DecryptMe {
         return  decryptedText;
 
     }
+    public int getShiftKey()
+    {
+        return shiftKey;
+    }
+
+    public String getText()
+    {
+        return encryptedText;
+    }
+
+    public void setCipherText(String cipherText)
+    {
+        this. decryptedText = cipherText;
+    }
+
+    public void setErrorMessage(String errorMessage)
+    {
+        this.errorMessage = errorMessage;
+    }
+
+
 }
